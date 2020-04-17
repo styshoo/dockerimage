@@ -1,1 +1,2 @@
-FROM docker.io/dockito/lftp-client:latest
+FROM docker.io/centos:centos7
+RUN yum -y install lftp
