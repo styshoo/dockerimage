@@ -96,10 +96,10 @@ def main():
             es_interval = float(value)
         if name in ("-s", "--size"):
             logging.info("size is: " + value)
-            max_size_gb = value
+            max_size_gb = int(value)
         if name in ("-c", "--count"):
             logging.info("count is: " + value)
-            count = value
+            count = int(value)
 
     storage_check(es_url, es_index, es_interval, max_size_gb, count)
 
