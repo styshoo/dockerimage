@@ -52,6 +52,7 @@ def storage_check(es_url, es_index, es_interval, max_size_gb, count):
             params = {"bytes": "gb"}
             data = es.cat.allocation(params=params)
             cat_alloc = data.encode('utf-8')
+            logging.info("alloc info: \n" + cat_alloc)
             for one_alloc in cat_alloc.splitlines():
                 splits = one_alloc.split()
                 storage = int(splits[1])
