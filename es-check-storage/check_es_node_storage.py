@@ -55,6 +55,8 @@ def storage_check(es_url, es_index, es_interval, max_size_gb, count):
             logging.info("alloc info: \n" + cat_alloc)
             for one_alloc in cat_alloc.splitlines():
                 splits = one_alloc.split()
+                if len(splits) != 9:
+                    continue                
                 storage = int(splits[1])
                 node = splits[8]
                 if storage > max_size_gb:
