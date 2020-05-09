@@ -1,1 +1,1 @@
-FROM docker.io/nvidia/driver:440.33.01-1.0.0-custom-centos7
+FROM docker.io/nvidia/driver:440.64.00-1.0.0-custom-centos7
