@@ -1,0 +1,1 @@
+FROM docker.io/nvidia/cuda:10.0-base
