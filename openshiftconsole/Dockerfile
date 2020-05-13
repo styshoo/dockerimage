@@ -1,0 +1,1 @@
+FROM quay.io/openshift/origin-console:4.6.0
