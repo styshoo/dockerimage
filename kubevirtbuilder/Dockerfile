@@ -1,0 +1,1 @@
+FROM docker.io/kubevirt/builder@sha256:e6a76ec71f2de87c3bc648bae87ab43a113540bf57da69f07f76bd0edfd500ab
