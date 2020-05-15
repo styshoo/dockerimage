@@ -1,0 +1,1 @@
+FROM registry.ap-northeast-1.aliyuncs.com/styshoo/virt-operator:v1
