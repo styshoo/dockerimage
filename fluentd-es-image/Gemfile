@@ -14,7 +14,9 @@ gem 'fluent-plugin-remote_syslog'
 gem 'fluent-plugin-record-reformer'
 gem 'fluent-plugin-docker_metadata_filter'
 gem 'fluent-plugin-flatten-hash'
-gem 'fluent-plugin-ftp'
+gem 'fluent-plugin-flume'
+gem 'fluent-plugin-route'
+gem 'fluent-plugin-kafka'
 
 gem 'oj', '~>3.7.12'
 
