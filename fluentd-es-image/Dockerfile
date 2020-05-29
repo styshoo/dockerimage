@@ -33,7 +33,7 @@ RUN chmod +x /usr/bin/clean-apt /usr/bin/clean-install
 # 2. Install fluentd via ruby.
 # 3. Remove build dependencies.
 # 4. Cleanup leftover caches & files.
-RUN BUILD_DEPS="make gcc g++ libc6-dev ruby-dev libffi-dev" \
+RUN BUILD_DEPS="make gcc g++ libc6-dev ruby-dev libffi-dev vim" \
     && clean-install $BUILD_DEPS \
                      ca-certificates \
                      libjemalloc1 \
