@@ -17,7 +17,8 @@ gem 'fluent-plugin-docker_metadata_filter'
 gem 'fluent-plugin-flatten-hash'
 gem 'fluent-plugin-flume'
 gem 'fluent-plugin-route'
-gem 'fluent-plugin-kafka' '0.10.0'
+gem 'ruby-kafka' '0.7.10'
+gem 'fluent-plugin-kafka'
 
 gem 'oj', '~>3.7.12'
 
