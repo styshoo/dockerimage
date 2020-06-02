@@ -1,0 +1,1 @@
+FROM mareimorsy/redis-dump:2.8
