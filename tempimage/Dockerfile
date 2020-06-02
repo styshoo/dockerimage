@@ -1,1 +1,1 @@
-FROM mareimorsy/redis-dump:2.8
+FROM gaofeng0300/redis-dump
